@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+#quiz-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto; /* Adds some margin at the top and bottom */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.flag {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+#country-name {
+    font-size: 20px; /* Increased font size for visibility */
+    font-weight: bold; /* Bold for emphasis */
+    display: none; /* Hidden by default, will be shown via JS */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px; /* Larger font size for readability */
+    font-weight: bold; /* Bold for emphasis */
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none; /* Removes the outline to keep the design clean */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Adjusted for spacing between buttons */
+    padding-top: 20px; /* Adds space between the content and the buttons */
+}
